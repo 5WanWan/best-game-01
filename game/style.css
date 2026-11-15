@@ -1,0 +1,29 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #05030d;
+  overflow: hidden;
+}
+
+#game {
+  display: block;
+  margin: 0 auto;
+  cursor: crosshair;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.noscript {
+  color: #ffe9a8;
+  font: 18px Georgia, serif;
+  text-align: center;
+  margin-top: 40vh;
+}
